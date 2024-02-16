@@ -1,0 +1,73 @@
+.card {
+  background-color: #052741;
+  width: 350px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: #fa8d3b 0px 0px 0px 2px inset, #031c30 6px -6px 0px -3px, #fc6747 6px -6px, #031c30 12px -12px 0px -3px, #b5485f 12px -12px, #031c30 18px -18px 0px -3px, #5a3546 18px -18px;
+}
+.card .number {
+  color: #feffd4;
+  font-size: 5em;
+  font-weight: bold;
+  text-shadow: 2px 5px 1px #b5485f, 4px 8px 0px #fc6747, 6px 11px 0px #fa8d3b;
+  text-align: center;
+  width: 80%;
+  border-bottom: 2px solid #feffd4;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.card .info {
+  color: #feffd4;
+  margin: 0 0 30px 0;
+  text-align: center;
+  width: 100%;
+}
+.card .info .number {
+  font-size: 1em;
+  text-shadow: none;
+  width: -moz-max-content;
+  width: max-content;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+}
+.card .button-19 {
+  background-color: #b5485f;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  color: #031c30;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 13px 20px;
+  text-align: center;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  vertical-align: middle;
+}
+.card .button-19:after {
+  background-clip: padding-box;
+  background-color: #feffd4;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.card .button-19:active {
+  border-width: 4px 0 0;
+  background: none;
+}/*# sourceMappingURL=container.css.map */

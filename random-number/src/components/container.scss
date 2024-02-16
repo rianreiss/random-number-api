@@ -1,0 +1,100 @@
+// collors
+
+$white1: #feffd4;
+$color1: #052741;
+$color11: #031c30;
+$color1dark: #031c30;
+$color1light: #083658;
+$color1neon: #006bbd;
+$color2: #5a3546;
+$color3: #b5485f;
+$color4: #fc6747;
+$color5: #fa8d3b;
+
+// collors
+
+.card {
+    background-color: $color1;
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: $color5 0px 0px 0px 2px inset, $color1dark 6px -6px 0px -3px, $color4 6px -6px, $color1dark 12px -12px 0px -3px, $color3 12px -12px, $color1dark 18px -18px 0px -3px, $color2 18px -18px;
+
+    .number {
+        color: $white1;
+        font-size: 5em;
+        font-weight: bold;
+        text-shadow: 2px 5px 1px $color3,
+            4px 8px 0px $color4,
+            6px 11px 0px $color5;
+
+        text-align: center;
+        width: 80%;
+        border-bottom: 2px solid $white1;
+        padding: 0 0 20px 0;
+        margin: 0;
+    }
+
+    .info {
+        color: $white1;
+        margin: 0 0 30px 0;
+
+        text-align: center;
+        width: 100%;
+
+        .number {
+            font-size: 1em;
+            text-shadow: none;
+            width: max-content;
+
+            border-bottom: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    // obs. I got this button style from https://getcssscan.com/css-buttons-examples
+    // just gave it some changes
+    .button-19 {
+        background-color: $color3;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        color: $color1dark;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 0;
+        padding: 13px 20px;
+        text-align: center;
+        transform: translateZ(0);
+        transition: filter .2s;
+        vertical-align: middle;
+    }
+
+    .button-19:after {
+        background-clip: padding-box;
+        background-color: $white1;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .button-19:active {
+        border-width: 4px 0 0;
+        background: none;
+    }
+}
