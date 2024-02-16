@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/random-number-api/static/css/main.8552f5ab.css",
+    "main.js": "/random-number-api/static/js/main.2ab33523.js",
+    "static/media/repeat.svg": "/random-number-api/static/media/repeat.4e937209973652a5f2d122f4b37279cf.svg",
+    "index.html": "/random-number-api/index.html",
+    "main.8552f5ab.css.map": "/random-number-api/static/css/main.8552f5ab.css.map",
+    "main.2ab33523.js.map": "/random-number-api/static/js/main.2ab33523.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8552f5ab.css",
+    "static/js/main.2ab33523.js"
+  ]
+}
