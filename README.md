@@ -8,7 +8,7 @@ This project aims to generate random math facts using the [NumberApi](http://num
 
 Check out the live demo below to experience the Random Number Generator in action!
 
-![Working Demo](demo.gif){:width="40px"}
+<img align="center" alt="Working Demo" width="400px" src="demo.gif" />
 
 ## Technologies Used
 - React JS <img align="center" alt="react" height="26px" width="26px" src="https://raw.githubusercontent.com/BeardedBear/bearded-icons/master/icons/reactts.svg" />
